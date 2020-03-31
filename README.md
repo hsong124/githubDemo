@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-# githubDemo
-=======
+
 # githubDemo
 
 ### Cloning a repository:
@@ -47,5 +45,3 @@ When pushing to master, all code should have gone through qa, security, etc. as 
 You can think of develop as the main branch to work off of. When you have a new feature, or are fixing a new bug, you branch off of develop and then merge back into develop using a pull request.
 A pull request is essentially you asking to have your code integrated with the base branch.
 Create a new pull request using the github website. It will typically need at least one approval before it can be merged back into develop. This is a type of branch rule, which can be changed in settings of the repository on the github website.
-
->>>>>>> Stashed changes
