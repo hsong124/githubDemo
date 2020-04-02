@@ -1,6 +1,6 @@
 import utils
 
 
-def add_nums_test():
+def test_add_nums():
      assert utils.add_nums(1,2,3) == 6
 
