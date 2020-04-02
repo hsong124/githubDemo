@@ -15,7 +15,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      #checks out code to machine
     - uses: actions/checkout@v2
+      #sets up python on machine
     - name: Set up Python 3.8
       uses: actions/setup-python@v1
       with:
