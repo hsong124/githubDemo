@@ -2,7 +2,7 @@
 silly utilities to give us some code to work on
 '''
 
-def add_nums(*args):     
+def add_nums(*args):
     '''
     receives any number of arguments
     sums them up and then returns the sum
