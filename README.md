@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-# githubDemo
-=======
+
 # githubDemo
 
 ### Cloning a repository:
@@ -18,7 +16,7 @@ To checkout a different branch:
 To make a new branch and check it out
 'git checkout -b <new branchname>'
 
-### Pushing your changes 
+### Pushing your changes
 After you have made changes to the repository like creating a new file or editing a file,
 you need to push it up to the remote repository so others can use/see/pull it.
 To see what has been changed:
@@ -48,4 +46,7 @@ You can think of develop as the main branch to work off of. When you have a new 
 A pull request is essentially you asking to have your code integrated with the base branch.
 Create a new pull request using the github website. It will typically need at least one approval before it can be merged back into develop. This is a type of branch rule, which can be changed in settings of the repository on the github website.
 
->>>>>>> Stashed changes
+###setting up github actions
+- on github site, go to actions tab, click start w/python application, push to dev
+- pip install pytest on local machine
+- github build actions or github marketplace for actions
