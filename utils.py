@@ -9,6 +9,6 @@ def add_nums(*args):
     NOTE: Doesn't check that they are numbers (yet)
     '''
     sum = 0
-    # for num in args:
-    #     sum += num
+    for num in args:
+        sum += num
     return sum
