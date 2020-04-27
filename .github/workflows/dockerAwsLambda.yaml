@@ -10,7 +10,7 @@ jobs:
         - name: Login to DockerHub Registry
           run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
         - name: aws-configure
-          run: aws configure
+          run: aws configure && echo "${{secrets.AWS_SECRET_ID}} \n ${{secrets.AWS_SECRET_KEY}} \n ${{secrets.AWS_SESSION_TOKEN}}" | ./your_script
         - name: Build the Docker image
           run: docker build -t mylambda .
         - name: Push the tagged Docker image
