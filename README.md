@@ -50,3 +50,7 @@ Create a new pull request using the github website. It will typically need at le
 - on github site, go to actions tab, click start w/python application, push to dev
 - pip install pytest on local machine
 - github build actions or github marketplace for actions
+- see also: https://cfacorp.atlassian.net/wiki/spaces/CRNIDNAD/pages/532283444/GitHub+Actions
+
+###Secrets
+In the settings tab of github, there is a secrets tab, where you can put secrets like AWS_ACCESS_KEY_ID

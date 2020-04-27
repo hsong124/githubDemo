@@ -18,7 +18,7 @@ def multiply_nums(*args):
     receives any number of arguments
     multiplies them together and returns the product
     '''
-    product = 0 # intentional bug.  Should be 1
+    product = 1
     for num in args:
         product *= num
     return product
